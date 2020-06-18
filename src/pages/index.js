@@ -1,5 +1,12 @@
 import React from "react"
 
-export default function Home() {
-  return <div>Hello world!</div>
+function Home() {
+  return (
+    <div style={{ color: `purple` }}>
+      <h1>Hello, Gatsby</h1>
+      <p>what is the gatsby</p>
+    </div>
+  )
 }
+
+export default Home
